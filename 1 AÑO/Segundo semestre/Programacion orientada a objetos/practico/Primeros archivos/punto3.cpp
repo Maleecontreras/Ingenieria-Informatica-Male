@@ -1,0 +1,112 @@
+#include <iostream>
+using namespace std;
+
+class bateria {
+    private:
+    string codigo;
+    int capacidad;
+    int año;
+    public:
+    bateria();
+    bateria(string, int, int);
+    void setcodigo(string);
+    string getcodigo();
+    void setcapacidad(int);
+    int getcapacidad();
+    void setaño(int);
+    int getaño();
+    void mostrardatosb();
+};
+
+class celular{
+    private:
+    string marca;
+    string modelo;
+    int año;
+    bateria b1;
+    public:
+    celular();
+    celular(string, string, int, bateria);
+    void setmarca(string);
+    string getmarca();
+    void setmodelo(string);
+    string getmodelo();
+    void setaño(int);
+    int getaño();
+    void mostrardatosc();
+};
+
+bateria::bateria(){}
+bateria::bateria(string _codigo, int _capacidad, int _año){
+    codigo=_codigo;
+    capacidad=_capacidad;
+    año=_año;
+}
+void bateria::setcodigo(string _codigo){
+    codigo=_codigo;
+}
+string bateria::getcodigo(){
+    return codigo;
+}
+void bateria::setcapacidad(int _capacidad){
+    capacidad=_capacidad;
+}
+int bateria::getcapacidad(){
+    return capacidad;
+}
+void bateria::setaño(int _año){
+    año=_año;
+}
+int bateria::getaño(){
+    return año;
+}
+void bateria::mostrardatosb(){
+    cout<<"BATERIA"<<endl;
+    cout<<"Codigo: "<<codigo<<endl;
+    cout<<"Capacidad: "<<capacidad<<endl;
+    cout<<"Año: "<<año<<endl;
+}
+
+celular::celular(){}
+celular::celular(string _marca, string _modelo, int _año, bateria _b1){
+    marca=_marca;
+    modelo=_modelo;
+    año=_año;
+    b1=_b1;
+}
+void celular::setmarca(string _marca) {
+        marca = _marca; 
+    }
+string celular::getmarca() {
+    return marca; 
+}
+void celular::setmodelo(string _modelo) { 
+    modelo = _modelo; 
+}
+string celular::getmodelo() { 
+    return modelo; 
+}
+void celular::setaño(int _año) { 
+    año = _año; 
+}
+int celular::getaño() { 
+    return año; 
+}
+void celular::mostrardatosc() {
+    cout << "CELULAR:" << endl;
+    cout << "Marca: " << marca << endl;
+    cout << "Modelo: " << modelo << endl;
+    cout << "Año: " << año << endl;
+    cout << endl;
+    b1.mostrardatosb(); 
+}
+
+
+int main() {
+    bateria b1("BAT123", 5000, 2024);
+    celular c1("Samsung", "Galaxy S25", 2025, b1);
+
+    c1.mostrardatosc();
+
+    return 0;
+}

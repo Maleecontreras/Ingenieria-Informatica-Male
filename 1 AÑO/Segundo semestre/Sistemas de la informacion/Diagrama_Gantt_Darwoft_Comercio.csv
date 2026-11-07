@@ -1,0 +1,23 @@
+ID;Nombre de la tarea;Fecha de inicio;Fecha de finalización;Recurso Asignado;Fase
+1;Definir objetivos de la tienda online;18/9/2025;22/9/2025;Project Manager / Equipo Comercial;FASE 1: Planificación y Configuración
+2;Seleccionar plataforma de e-commerce;23/9/2025;26/9/2025;Equipo de Desarrollo / Arquitecto de Soluciones;FASE 1: Planificación y Configuración
+3;Registrar dominio y contratar hosting;29/9/2025;30/9/2025;Equipo de Infraestructura (SysAdmin);FASE 1: Planificación y Configuración
+4;Configurar diseño general (tema, logo);1/10/2025;6/10/2025;Equipo de Diseño UX/UI;FASE 1: Planificación y Configuración
+5;Integrar pasarelas de pago;7/10/2025;9/10/2025;Desarrollador Backend;FASE 1: Planificación y Configuración
+6;Configurar métodos de envío;10/10/2025;14/10/2025;Project Manager / Equipo Comercial;FASE 1: Planificación y Configuración
+7;Crear categorías y subcategorías;15/10/2025;16/10/2025;Content Manager;FASE 2: Carga de Productos y Categorías
+8;Cargar productos (imágenes, descripciones);17/10/2025;23/10/2025;Content Manager / Data Entry;FASE 2: Carga de Productos y Categorías
+9;Establecer variaciones de productos;24/10/2025;27/10/2025;Content Manager;FASE 2: Carga de Productos y Categorías
+10;Configurar impuestos y descuentos;28/10/2025;29/10/2025;Equipo Comercial;FASE 2: Carga de Productos y Categorías
+11;Optimizar imágenes de productos;30/10/2025;31/10/2025;Equipo de Diseño UX/UI;FASE 2: Carga de Productos y Categorías
+12;Crear descripciones SEO-friendly;3/11/2025;5/11/2025;Especialista SEO / Redactor;FASE 2: Carga de Productos y Categorías
+13;Configurar página de inicio y páginas internas;28/10/2025;31/10/2025;Desarrollador Frontend / Diseñador UX/UI;FASE 3: Configuración de la Tienda
+14;Establecer términos y condiciones;3/11/2025;4/11/2025;Asesor Legal / Project Manager;FASE 3: Configuración de la Tienda
+15;Configurar política de privacidad;5/11/2025;6/11/2025;Asesor Legal / Project Manager;FASE 3: Configuración de la Tienda
+16;Integrar herramientas de análisis ;6/11/2025;7/11/2025;Desarrollador Backend / Especialista en Marketing;FASE 3: Configuración de la Tienda
+17;Configurar carrito y proceso de checkout;10/11/2025;12/11/2025;Desarrollador Frontend / Equipo de QA;FASE 3: Configuración de la Tienda
+18;Implementar sistema de gestión de inventario;13/11/2025;14/11/2025;Desarrollador Backend;FASE 3: Configuración de la Tienda
+19;Desarrollar funcionalidades personalizadas;6/11/2025;12/11/2025;Equipo de Desarrollo Fullstack;FASE 4: Desarrollo y Personalización
+20;Integrar herramientas de marketing;13/11/2025;14/11/2025;Desarrollador Backend / Especialista en Marketing;FASE 4: Desarrollo y Personalización
+21;Implementar un blog;17/11/2025;18/11/2025;Desarrollador Frontend / Content Manager;FASE 4: Desarrollo y Personalización
+22;Configurar notificaciones por email;19/11/2025;19/11/2025;Desarrollador Backend;FASE 4: Desarrollo y Personalización
